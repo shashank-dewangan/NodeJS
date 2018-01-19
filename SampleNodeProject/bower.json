@@ -1,0 +1,17 @@
+{
+  "name": "samplenodeproject",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "shashank-dewangan <shashank.at30@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
