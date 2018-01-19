@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+<% include MenuBar/menu.ejs%>
+<h1><%= videodata.categoryName %></h1>
+<ul>
+    <% videodata.categories.forEach(function(item){ %>
+    <li><a href="/Video?cat=<%= item.categoryID %>"><%= item.categoryName %></a></li>
+
+    <% })%>
+</ul>
+</body>
+</html>
